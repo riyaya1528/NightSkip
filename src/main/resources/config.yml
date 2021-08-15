@@ -1,0 +1,4 @@
+#夜のスキップを有効にする
+NightSkip: true
+#何人以上の人が寝るのか
+PlayerSleepNeed: 2

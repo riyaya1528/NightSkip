@@ -1,0 +1,4 @@
+name: NightSkip
+version: '${project.version}'
+main: riyaya1528.paper.nightskip.NightSkip
+api-version: 1.17
