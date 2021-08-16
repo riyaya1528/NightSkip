@@ -1,4 +1,8 @@
 #夜のスキップを有効にする
 NightSkip: true
-#何人以上の人が寝るのか
+#何人以上の人が寝る必要があるのか
 PlayerSleepNeed: 2
+#何人寝る必要があるかのメッセージ
+#変数 [プレイヤー数] : 現在の必要なプレイヤー数
+SleepNowMessage: §c§lあと、[プレイヤーの数]人が寝る必要があります
+SleepSuccessMessage: §a§l夜が過ごされます
