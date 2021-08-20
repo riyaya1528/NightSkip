@@ -23,6 +23,7 @@ public class Sleep implements Listener {
                 e.getPlayer().getWorld().setStorm(false);
             }
             DeepsleepPlayers = 0;
+            sleepPlayers = 0;
         }
     }
 
@@ -50,9 +51,13 @@ public class Sleep implements Listener {
     public void onUnSleep(PlayerBedLeaveEvent e) {
         if (e.getPlayer().isDeeplySleeping()) {
             DeepsleepPlayers = DeepsleepPlayers - 1;
+            sleepPlayers = sleepPlayers - 1;
 
             if (DeepsleepPlayers <= 0) {
                 DeepsleepPlayers = 0;
+            }
+            if (sleepPlayers <= 0) {
+                sleepPlayers = 0;
             }
 
         } else if (e.getPlayer().isSleeping()) {
